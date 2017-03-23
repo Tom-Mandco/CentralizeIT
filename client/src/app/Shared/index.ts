@@ -6,7 +6,7 @@ export * from '../Components/add-document/add-document.component';
 export * from '../Components/search-documents/search-documents.component';
 
 //Models
-
+export * from '../Models/message.model';
 
 //Services
 

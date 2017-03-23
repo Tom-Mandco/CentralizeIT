@@ -5,7 +5,7 @@ import { HttpModule }    from '@angular/http';
 import { AppComponent }  from './app.component';
 import { Routing }       from './app.routing';
 
-import { AccordionModule } from 'primeng/primeng';
+import { AccordionModule, FileUploadModule } from 'primeng/primeng';
 
 import { NavbarComponent, SidebarComponent } from './Shared/index';
 import { LandingPageComponent, AddDocumentComponent, SearchDocumentComponent } from './Shared/index';
@@ -14,7 +14,8 @@ import { LandingPageComponent, AddDocumentComponent, SearchDocumentComponent } f
   imports:      [ BrowserModule,
                   Routing,
                   HttpModule,
-                  AccordionModule ],
+                  AccordionModule,
+                  FileUploadModule ],
   declarations: [ AppComponent,
                   LandingPageComponent,
                   NavbarComponent,
