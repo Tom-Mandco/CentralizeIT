@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { FileUploadModule } from 'primeng/primeng';
 
+import { Message } from '../../Shared/index';
+
 @Component({
     moduleId: module.id,
     selector: 'add',
