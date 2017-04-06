@@ -1,0 +1,17 @@
+{
+  "name": "cds-server",
+  "version": "0.0.1-alpha.1",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "chokidar": "^1.6.1",
+    "dateformat": "^2.0.0",
+    "nodejs-websocket": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
